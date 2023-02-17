@@ -199,6 +199,7 @@ display: block;
 div{
     display: inline-flex;
     padding-top: 1%;
+    padding-left: 1%;
     gap: 3rem;
 }
 
