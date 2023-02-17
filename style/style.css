@@ -17,38 +17,41 @@ body{
 /* HEADER */
 
 header{
-    background-color:rgb(82, 175, 94);
+    background-color:rgb(16, 41, 24);
     min-height: 5vh;
     padding: 1rem;
     background-image:url(./images/design1_image2.jpg);
 }
 
 header img{
-    max-height: 70vh;
+    max-height: 60vh;
     width: 100%;
     background-color: white;
     
 }
 
 .logo{
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
     background-color: white;
     border-radius: 50%;
+    
 }
 
 h1{
     display: inline-block;
     vertical-align: top;
     width: 60%;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: end;
+    color: white;
     margin-left: 0;
+    
 }
 
 nav{
     background-color:lightgreen;
-    min-height: 5vh;
+    min-height: 3vh;
     padding: 0.5rem;
     
 }
@@ -58,10 +61,9 @@ a{
     width: 8rem;
     height: 3rem;
     color: black;
-   
     text-align: center;
     font-weight: bolder;
-    box-shadow: 5px 5px rgb(36, 34, 34);
+    box-shadow: 5px 5px rgb(63, 71, 65);
     justify-content: center
 }
 
@@ -77,16 +79,18 @@ a:active{
 h2{
     display:inline-block;
     width: 60%;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin-left: 10%;
-    border-color: black;
+    color: white;
 }
 
 
 header>p{
     text-align: center;
     margin-right: 45%;
+    color: white;
+    /*align-content:;*/
 }
 
 /* MAIN */
@@ -112,14 +116,18 @@ section{
     display: block;
     /*box-shadow: 5px 5px rgba(0, 0, 0, 0.358);*/
     margin: 1rem;
+    gap: 2rem;
 }
 
 section:hover{
     background-color: rgb(107, 190, 177);
 }
 
+/* ARTICLE*/
+
 article{
 padding-left: 10px;
+padding-bottom: 5%;
 }
 
 
@@ -162,6 +170,20 @@ th {
     padding-top: 5px;
 }
 
+/* FORM */
+
+form{
+    font-weight: bolder;
+}
+
+fieldset{
+    padding: 0.5%;
+}
+
+
+.space{
+display: block;
+}
 
 
 /**/
@@ -176,6 +198,8 @@ th {
 
 div{
     display: inline-flex;
+    padding-top: 1%;
+    gap: 3rem;
 }
 
 div p{
@@ -196,7 +220,7 @@ div p{
 
 footer{
     background-color: black;
-    height: 5vh;
+    height: 1vh;
     padding: 1.5rem;
 }
 
